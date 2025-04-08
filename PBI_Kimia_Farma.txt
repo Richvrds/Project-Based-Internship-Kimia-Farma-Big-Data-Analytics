@@ -1,10 +1,6 @@
---    Kimia Farma Big Data Analytics Project Based Internship Program
-
---    Performance Analytics Analisis kinerja bisnis Kimia Farma Tahun 2020-2023
-
-
--- Membuat atau menggantikan tabel bernama 'tabel_analisis' di dataset 'kimia_farma'
-CREATE OR REPLACE TABLE `kimia_farma.tabel_analisis` AS
+-- Membuat atau menggantikan tabel bernama 'tabel_analisa' di dataset 'kimia_farma'
+--
+CREATE OR REPLACE TABLE `kimia_farma.tabel_analisa` AS
 SELECT
     ft.transaction_id,                  -- Mengambil kolom ID transaksi dari tabel transaksi
     ft.date,                            -- Mengambil tanggal transaksi
